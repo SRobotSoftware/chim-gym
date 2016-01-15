@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chim Gym</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+
+    <img class="img-circle" height="120px" src="https://i.ytimg.com/vi/mPtUrnU20zA/maxresdefault.jpg" alt="CHIM GYM LOGO">
+
+    <h1>Welcome to the Gym</h1>
+
+    <div class="container row">
+        <h3>Sign up here:</h3>
+        <div id="wrapper-name" class="form-group col-xs-2">
+            <input type="text" id="name" placeholder="name" class="form-control">
+        </div>
+        <div id="wrapper-email" class="form-group col-xs-2">
+            <input type="email" id="email" placeholder="email" class="form-control">
+        </div>
+        <div id="wrapper-password" class="form-group col-xs-2">
+            <input type="password" id="password" placeholder="password" class="form-control">
+        </div>
+        <div class="form-group col-xs-2">
+            <button onclick="submitRegistration()" id="button" class="btn btn-default form-control">Submit</button>
+        </div>
+    </div>
+
+    <div>
+        <h3>Active Members:</h3>
+        <ul id="members-list">
+            <li>Be the first to sign up!</li>
+        </ul>
+    </div>
+
+    <script src="assets/scripts/app.js"></script>
+</body>
+
+</html>
